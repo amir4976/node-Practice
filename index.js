@@ -20,9 +20,7 @@ const http = require('http')
 
 ///////////// server
 const server = http.createServer((req,res)=>{
-    res.end(()=>{
-        console.log(res)
-    })
+    res.end('hello from the server')
 })
 
 server.listen(8000 ,'127.0.0.1' , () => {
