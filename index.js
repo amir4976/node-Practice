@@ -25,7 +25,7 @@ const server = http.createServer((req,res)=>{
     })
 })
 
-server,listen(8000)
+server.listen(8000)
 
 
 
