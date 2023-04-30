@@ -20,7 +20,9 @@ const http = require('http')
 
 ///////////// server
 http.createServer((req,res)=>{
-    res.end('hellp from the server !')
+    res.end(()=>{
+        console.log(res)
+    })
 })
 
 
