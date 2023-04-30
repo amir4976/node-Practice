@@ -18,7 +18,10 @@ const http = require('http')
 // })
 // console.log('will read file')
 
-
+///////////// server
+http.createServer((req,res)=>{
+    res.end('hellp from the server !')
+})
 
 
 
