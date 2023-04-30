@@ -1,5 +1,6 @@
 
 const fs = require('fs')
+const http = require('http')
 
 // blocking -- sync
 // const textIn = fs.readFileSync('./txt/input.txt')
@@ -11,11 +12,11 @@ const fs = require('fs')
 // console.log('file written !')
  
 
-//none blocking -- async
-fs.readFile('./txt/start.txt','utf-8' ,(err,data)=>{
-    console.log(data)
-})
-console.log('will read file')
+// //none blocking -- async
+// fs.readFile('./txt/start.txt','utf-8' ,(err,data)=>{
+//     console.log(data)
+// })
+// console.log('will read file')
 
 
 
