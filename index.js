@@ -12,10 +12,10 @@ const fs = require('fs')
  
 
 //none blocking -- async
-// fs.readFile('./txt/start.txt','utf-8' ,(err,data)=>{
-//     console.log(data)
-// })
-// console.log('will read file')
+fs.readFile('./txt/start.txt','utf-8' ,(err,data)=>{
+    console.log(data)
+})
+console.log('will read file')
 
 
 
