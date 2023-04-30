@@ -19,7 +19,7 @@ const http = require('http')
 // console.log('will read file')
 
 ///////////// server
-http.createServer((req,res)=>{
+const server = http.createServer((req,res)=>{
     res.end(()=>{
         console.log(res)
     })
