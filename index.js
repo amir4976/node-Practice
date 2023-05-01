@@ -27,7 +27,7 @@ const server = http.createServer((req,res)=>{
 // AND 127.0.0.1 IS STANDARD HOST
 server.listen(8000 ,'127.0.0.1' , () => {
     console.log('listening to request on port 8000')
-})
+}) 
  
 
 
