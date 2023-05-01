@@ -19,10 +19,12 @@ const http = require('http')
 // console.log('will read file')
 
 ///////////// server
+// THIS IS HOW WE MAKE A SERVER ON LOCAL HOST
 const server = http.createServer((req,res)=>{
     res.end('hello from the server')
 })
-
+// AFTER WE MAKE OUR SERVER WE HAVE TO MAKE IT LISTEN FROM HOST 8000
+// AND 127.0.0.1 IS STANDARD HOST
 server.listen(8000 ,'127.0.0.1' , () => {
     console.log('listening to request on port 8000')
 })
